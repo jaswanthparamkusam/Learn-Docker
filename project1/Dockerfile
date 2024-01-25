@@ -13,7 +13,7 @@ RUN pip install flask && \
     rm -rf /var/lib/apt/lists/*
 
 # Expose the port that Flask will run on
-EXPOSE 5000
+EXPOSE 8000
 
 # Define the command to run your application
 CMD ["python", "app.py"]
