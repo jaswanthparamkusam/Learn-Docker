@@ -11,3 +11,4 @@ FROM node:14-alpine
 WORKDIR /app
 COPY --from=builder /app /app
 CMD ["node", "app.js"]
+
